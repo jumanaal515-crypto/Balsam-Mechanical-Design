@@ -38,7 +38,7 @@ This project introduces an innovative technology that solves a big problem in re
     * **8 External Motors:** Mounted on the legs (for the thigh and knee joints).
     * **4 Internal Motors:** Hidden inside the main box chassis, acting as a **"Mechanical Core"**. They control the side-to-side hip movement ($Hip Roll$) and widen the robot's legs automatically to keep balance based on M2M commands.
 
-
+![Hip Roll Joint Detail and Motion Mechanism](Hip-Roll.png)
 
 * **Initial Torque Calculation for One Joint:**
     * If the total weight of the robot with its payload is $W = 3 \text{ kg}$, and assuming the robot stands on at least 2 legs while walking, the force ($F$) on one leg is:
@@ -56,8 +56,6 @@ To make Balsam smart and autonomous, AI and M2M technology are used in three mai
 1. **Shared Intelligence & M2M Communication:** Balsam talks directly to exploring robots using **Machine-to-Machine** protocols. The exploring robot acts as the "eyes" and Balsam acts as the "helping hand". The AI instantly reads the shared GPS coordinates to find the fastest, safest path to the victim.
 2. **Self-Adapting Walk (AI Motion):** The 12 motors do not follow fixed, rigid code. Instead, an AI algorithm reads data from the **Inertial Measurement Unit (IMU)** sensor. If the robot steps on an unstable rock or a slope, the AI recalculates and changes the joint angles in milliseconds to stop it from falling.
 3. **Smart Body Adjustment:** The 4 internal motors use smart AI timing to change how wide the robot stands based on how narrow or wide the paths are inside the ruins.
-
-![Hip Roll Joint Detail and Motion Mechanism](Hip-Roll.png)
 
 ---
 
