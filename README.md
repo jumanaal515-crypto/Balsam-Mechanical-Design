@@ -31,11 +31,14 @@ This project introduces an innovative technology that solves a big problem in re
 ## 2. Locomotion System & Torque Calculation
 
 * **Leg Design & Degrees of Freedom (DOFs):** The robot has 4 identical legs. Each leg has 3 independent joints (Hip, Thigh, and Knee) making a total of **12 Degrees of Freedom (12 DOFs)**. This gives the robot high flexibility to climb over rubble.
+
+![12 Actuators and Servo Motors Distribution](motors.png)
+
 * **Motor Selection & Distribution:** All 12 motors are the same type—**MG996R** high-torque digital servo motors with full metal gears (torque up to $15 \text{ kg.cm}$) to make programming easier. They are placed like this:
     * **8 External Motors:** Mounted on the legs (for the thigh and knee joints).
     * **4 Internal Motors:** Hidden inside the main box chassis, acting as a **"Mechanical Core"**. They control the side-to-side hip movement ($Hip Roll$) and widen the robot's legs automatically to keep balance based on M2M commands.
 
-![12 Actuators and Servo Motors Distribution](motors.png)
+
 
 * **Initial Torque Calculation for One Joint:**
     * If the total weight of the robot with its payload is $W = 3 \text{ kg}$, and assuming the robot stands on at least 2 legs while walking, the force ($F$) on one leg is:
