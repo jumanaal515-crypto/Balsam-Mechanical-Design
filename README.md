@@ -1,5 +1,7 @@
 # Balsam Rescue Robot
 
+![Balsam Initial Mechanical Design Prototype](Balsam.png)
+
 ## Initial Mechanical Design and Emergency Payload System for the Quadruped Rescue Robot "Balsam"
 
 This project introduces an innovative technology that solves a big problem in rescue operations. Today, global research focuses on making search-and-explore robot dogs (like Boston Dynamics' **Spot**) to scan dangerous disaster zones. However, these current robots cannot give direct, immediate medical or food aid to injured people.
@@ -10,7 +12,7 @@ This project introduces an innovative technology that solves a big problem in re
 * **Similarity:** **Balsam** looks like **Spot** because it uses a **4-legged (quadruped) design** with **12 Degrees of Freedom (12 DOFs)** to walk over rough rocks and ruins easily.
 * **Key Difference:** Spot is built just to scan, take pictures, and explore. **Balsam** is unique because it has a **smart built-in storage container with an automatic opening lid** to give real, life-saving help to trapped people.
 
-![Balsam Initial Mechanical Design Prototype](Balsam.png)
+
 
 ---
 
